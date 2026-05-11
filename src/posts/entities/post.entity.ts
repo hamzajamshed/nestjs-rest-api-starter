@@ -26,7 +26,10 @@ export class Post {
   @Column({ type: 'text' })
   body: string;
 
-  @Column({ type: 'enum', enum: PostStatus, default: PostStatus.DRAFT })
+  @Column({ 
+    type: 'varchar',
+    default: PostStatus.DRAFT 
+  })
   status: PostStatus;
 
   @Column({ nullable: true })

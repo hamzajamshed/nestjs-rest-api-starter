@@ -31,7 +31,10 @@ export class User {
   @Exclude() // never expose password in responses
   password: string;
 
-  @Column({ type: 'enum', enum: UserRole, default: UserRole.USER })
+  @Column({ 
+    type: 'varchar',
+    default: UserRole.USER 
+  })
   role: UserRole;
 
   @Column({ default: true })
