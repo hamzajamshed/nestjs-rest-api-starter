@@ -2,7 +2,7 @@
 
 A production-ready REST API boilerplate built with **NestJS**, **TypeORM**, **MySQL**, and **JWT authentication**. Clean architecture, Swagger docs, Docker support, and CI/CD included.
 
-![CI](https://github.com/YOUR_USERNAME/nestjs-rest-api-starter/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/hamzajamshed/nestjs-rest-api-starter/actions/workflows/ci.yml/badge.svg)
 ![Node](https://img.shields.io/badge/Node.js-20-green?logo=nodedotjs)
 ![NestJS](https://img.shields.io/badge/NestJS-10-E0234E?logo=nestjs)
 ![License](https://img.shields.io/badge/license-MIT-blue)
@@ -42,7 +42,7 @@ A production-ready REST API boilerplate built with **NestJS**, **TypeORM**, **My
 ### Option 1 — Docker (Recommended)
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/nestjs-rest-api-starter.git
+git clone https://github.com/hamzajamshed/nestjs-rest-api-starter.git
 cd nestjs-rest-api-starter
 docker-compose up --build
 ```
@@ -58,7 +58,7 @@ Docs: `http://localhost:3000/docs`
 
 ```bash
 # Clone
-git clone https://github.com/YOUR_USERNAME/nestjs-rest-api-starter.git
+git clone https://github.com/hamzajamshed/nestjs-rest-api-starter.git
 cd nestjs-rest-api-starter
 
 # Install dependencies
@@ -175,4 +175,4 @@ MIT — free to use, fork, and build on.
 
 ---
 
-Built by [Hamza](https://github.com/YOUR_USERNAME) · [LinkedIn](https://linkedin.com/in/YOUR_HANDLE)
+Built by [Hamza](https://github.com/hamzajamshed) · [LinkedIn](https://linkedin.com/in/hamzajamshed)
